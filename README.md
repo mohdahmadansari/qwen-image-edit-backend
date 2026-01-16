@@ -5,6 +5,8 @@ FastAPI backend for Qwen Image Edit 2511 with Multiple-Angles LoRA adapter.
 
 ![Qwen Image Edit generated image](Screenshot.png)
 
+![back-right view slightly elevated medium shot, natural lighting, realistic perspective, same subject, consistent identity](image-1.png)
+
 ## Requirements
 
 - Python 3.10+
