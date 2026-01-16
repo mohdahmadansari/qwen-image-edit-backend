@@ -1,0 +1,34 @@
+# Qwen Image Backend Requirements
+# ================================
+
+# ============================================
+# IMPORTANT: Install PyTorch with CUDA first!
+# ============================================
+# Run this BEFORE pip install -r requirements.txt:
+#
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+#
+# This installs PyTorch with CUDA 12.1 support.
+# For other CUDA versions, see: https://pytorch.org/get-started/locally/
+# ============================================
+
+# FastAPI
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# ML / Inference (PyTorch installed separately with CUDA - see above)
+# torch>=2.1.0  # INSTALL SEPARATELY WITH CUDA!
+diffusers>=0.25.0
+transformers>=4.36.0
+accelerate>=0.25.0
+peft>=0.7.0
+safetensors>=0.4.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Utils
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0

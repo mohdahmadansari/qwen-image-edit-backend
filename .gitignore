@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Models / Weights
+models/
+checkpoints/
+*.safetensors
+*.bin
+
+# HuggingFace / Torch Cache
+.cache/
+.huggingface/
+torch_cache/
+
+# Outputs
+outputs/
+generated/
+*.png
+*.jpg
+*.jpeg
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
